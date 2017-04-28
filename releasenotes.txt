@@ -1,0 +1,114 @@
+### Version 0.10.0.40 - 12.02.2012
+- improved the settings of the AES encryption
+	- password is now hashed with SHA-512 instead of MD5
+	- the salt value is now generated and not static
+- fixed a rare bug at the CTXT-properties
+- some changes to make it easier to port the program to other platforms (like Linux)
+[INFO]	The old CTXT files are compatible with this version.
+		But not the texts you encrypted directly, 
+		so decrypt your encrypted texts with an old version of CryptotextEditor 
+		and encrypt them with this version again!
+
+### Version 0.9.0.39 - 02.01.2012
+- improved the way how to hash files (added a graphical user interface)
+- added SHA 256, 384 and 512 algorithm
+- added RIPEMD 160 algorithm
+- some minor improvements
+- minor bugfix
+
+### Version 0.8.0.38 - [never released]
+- added SHA 256, 384 and 512 algorithm
+- added RIPEMD 160 algorithm
+- minor improvements
+
+### Version 0.7.1.37 - 15.08.2011
+- little update (now it uses .NET 3.5 Client Profile again)
+
+### Version 0.7.0.36 - 13.08.2011
+- this version is full compatible to Windows Vista and 7
+- added the LinkClicked-Event to open marked links
+- fixed a bug that causes that the program wasn't shown on the screen
+- minor improvements and preparations for version 0.8
+
+### Version 0.6.5.35 - 19.06.2011
+- Fixed a bug with the settings on Windows Vista and 7 systems (UnauthorizedAccessException)
+
+### Version 0.6.4.34 - 29.05.2011
+- the AutoSave function now encrypt the text (but it only save the unformatted text)
+- minor improvemets
+
+### Version 0.6.3.33 - 13.05.2011
+- now the program use a XML file to save the settings
+- downgraded the framework 3.5 to Client Profile (Exe and API)
+
+### Version 0.6.2.32 - 10.04.2011
+- redesigned the hole concept of the CryptotextEditor API (only important for developers)
+- added enum "Encryption" to the API (only important for developers)
+- this version uses the CryptotextEditor API 0.7
+- minor improvements
+
+### Version 0.6.1.31 - 05.04.2011
+- improved handling when you save CTXT files with base64 encryption
+- minor improvements
+
+### Version 0.6.0.30 - 28.03.2011
+- added spanish translation
+- added an description to the API
+- improved the algorithms of the API
+- AES encryption now also uses UTF-8 encoding
+
+### Version 0.5.0.29 - 18.03.2011
+- minor improvements to make it stable
+
+### Version 0.4.0.28 Beta - 15.03.2011
+- added Leetspeak encryption
+- added a new toolbox
+- added some icons
+- tidied up the sourcecode
+- translation updates
+
+### Version 0.3.1.27 Beta - 13.03.2011
+- bug 3207039: CryptotextEditor's autosave function caused an error on Vista systems
+- minor improvemets
+
+### Version 0.2.2.26 Beta - 13.03.2011
+- bug 3207039: CryptotextEditor's autosave function caused an error on Vista systems
+
+### Version 0.1.3.25 Beta - 13.03.2011
+- bug 3207039: CryptotextEditor's autosave function caused an error on Vista systems
+- last release for v0.1
+
+### Version 0.3.0.24 Beta - 10.03.2011
+- new CryptotextEditorAPI.dll
+- extracted the code for the CTXT-Files and for the encryptions to the API
+
+### Version 0.2.1.23 Beta - 08.03.2011
+- improved handling with the ctxt format
+- minor bugfixes
+
+### Version 0.1.2.22 Beta - 07.03.2011
+- contains bugfixes from v0.2 and v0.2.1
+
+### Version 0.2.0.21 Beta - 06.03.2011
+- localized the program
+- added german translation
+
+### Version 0.1.1.20 Beta - 04.03.2011
+- tidied up the source
+- minor changes
+
+### Version 0.1.0.19 Beta - 16.02.2011
+- improved the search alogrythm
+- major bugfixes and improvements
+
+### Version 0.1.0.18 Alpha 3 - 10.02.2011
+- added a menu item to move the window into the system tray
+- many minor improvements
+- 1 bugfix
+
+### Version 0.1.0.17 Alpha 2 - 01.02.2011
+- added more options to save files in the ctxt format
+- CTXT 2.1
+
+### Version 0.1.0.15 Alpha 1 - 26.01.2011
+[info] First alpha release of the new CryptotextEditor in C#
